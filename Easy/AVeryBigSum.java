@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class AVeryBigSum {
-
+    //test
     static long aVeryBigSum(long[] ar) {
         long a = 0;
         for (int i = 0; i < ar.length; i++) {

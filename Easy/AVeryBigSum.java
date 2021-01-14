@@ -23,5 +23,6 @@ public class AVeryBigSum {
         }
 
         System.out.println(aVeryBigSum(ar));
+        s.close();
     }
 }

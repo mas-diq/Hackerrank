@@ -15,6 +15,7 @@ public class staircase {
                 System.out.print("#");
             }
             System.out.println("");
+            s.close();
         }
     }
 }

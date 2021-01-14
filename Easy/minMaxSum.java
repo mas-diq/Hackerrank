@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import java.io.*;
@@ -7,7 +6,7 @@ import java.util.*;
 public class minMaxSum {
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-        int ar[] = new int[5];
+        long ar[] = new long[5];
 
         int x = 0;
         while (x < 5) {
@@ -32,5 +31,6 @@ public class minMaxSum {
             b++;
         }
         System.out.print(min + " " + max);
+        s.close();
     }
 }

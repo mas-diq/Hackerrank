@@ -22,5 +22,6 @@ public class DiagonalDifference {
             d2 = d2 + ar[ax - 1 - y][y];
         }
         System.out.println(Math.abs(d1 - d2));
+        s.close();
     }
 }

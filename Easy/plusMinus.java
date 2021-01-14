@@ -29,5 +29,6 @@ public class plusMinus {
         System.out.println(pos / ax);
         System.out.println(neg / ax);
         System.out.println(zer / ax);
+        s.close();
     }
 }

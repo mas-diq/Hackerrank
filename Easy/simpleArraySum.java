@@ -22,5 +22,6 @@ public class simpleArraySum {
         }
 
         System.out.println(simpleArray(ar));
+        s.close();
     }
 }

@@ -28,5 +28,6 @@ public class compareTheTriplets {
             }
         }
         System.out.println(as + " " + bs);
+        s.close();
     }
 }
